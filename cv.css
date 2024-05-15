@@ -1,0 +1,39 @@
+.parent{
+    display: flex;
+    height: 100%;
+    max-width: 1500px;
+    background: aqua;
+}
+header{
+   padding-left: 50px;
+   margin-left: 0px;
+   
+   height: 100%;
+   width: 1500px;
+}
+.circle{
+    position: absolute;
+    margin-left: 1000px ;
+    margin-top: 15px;
+    width: 150px;
+    height: 150px;
+    background-image: -webkit-image-set("sanks.jpg");
+    border-radius: 50%;
+}
+footer{
+    position:absolute;
+    margin-top: 200px;
+    padding-left: 50px;
+    height: 100%;
+    width: 100%;
+}
+.work{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.skills{
+    position: relative;
+    margin-left: 500px;
+    margin-top: -175px;
+}
